@@ -1,0 +1,366 @@
+body
+{
+	background-color:#dbdcff;
+}
+
+#main_container
+{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	width:950px;
+}
+
+#banner
+{
+	position:relative;
+	width:950px;
+	height:160px;
+	background-image:url(images/banner.png);
+	background-repeat:no-repeat;
+}
+
+#body_container
+{
+	position:relative;
+	width:950px;
+}
+
+#menu_header
+{
+	position:relative;
+	width:200px;
+	height:40px;
+	background-image:url(images/menu_header.png);
+	background-repeat:no-repeat;
+}
+
+#menu_repeat
+{
+	position:relative;
+	width:200px;
+	background-image:url(images/menu_repeat.png);
+	background-repeat:repeat-y;
+	overflow:hidden;
+}
+
+#menu_links
+{
+	position:relative;
+	width:180px;
+	float:left;
+	margin:10px;
+}
+
+#menu_footer
+{
+	position:relative;
+	width:200px;
+	height:30px;
+	background-image:url(images/menu_footer.png);
+	background-repeat:no-repeat;
+}
+
+#content_container
+{
+	position:relative;
+	width:740px;
+	margin-left:10px;
+	float:left;
+}
+
+#content_header
+{
+	position:relative;
+	width:740px;
+	height:30px;
+	background-image:url(images/content_header.png);
+	background-repeat:no-repeat;
+}
+
+#content_repeat
+{
+	position:relative;
+	width:740px;
+	background-image:url(images/content_repeat.png);
+	background-repeat:repeat-y;
+	overflow:hidden;
+	z-index:0;
+}
+
+#content_footer
+{
+	position:relative;
+	width:740px;
+	height:35px;
+	background-image:url(images/content_footer.png);
+	background-repeat:no-repeat;
+}
+
+#main_content
+{
+	width:700px;
+	margin-left:20px;
+	margin-right:20px;
+	font-family:Arial;
+	overflow:hidden;
+}
+
+#login_menu
+{
+	border:1px transparent;
+	color:#FFF;
+	font-size:11px;
+	position:relative;
+	text-align:left;
+	width:200px;
+	float:left;
+	padding:12px;
+}
+
+#login_menu input[type=text],#login_menu input[type=password]
+{
+	border:1px solid #ACE;
+	display:block;
+	font-size:13px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	width:160px;
+	margin:0 0 5px;
+	padding:5px;
+}
+
+#login_menu p
+{
+	margin:0;
+}
+
+#login_menu label
+{
+	font-weight:400;
+}
+
+#login_menu p.login
+{
+	padding:10px 0;
+}
+
+#info_message
+{
+	position:relative;
+	display:block;
+	width:100%;
+	border:1px dashed #2989cc;
+	text-align:center;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:700;
+	overflow:hidden;
+	margin:2px;
+}
+
+#menu_title_logout
+{
+	background-image:url(images/menu_logout.png);
+	background-repeat:no-repeat;
+}
+
+.form_table
+{
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.form_table thead
+{
+	font-weight: bold;
+}
+
+.form_table td em
+{
+	color: #C00;
+}
+
+.menu_title
+{
+	width:150px;
+	height:15px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-top:5px;
+	border:0;
+}
+
+.menu_link
+{
+	position:relative;
+	display:block;
+	width:180px;
+	height:25px;
+	background-image:url(images/menu_link.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	cursor:pointer;
+	float:left;
+}
+
+.menu_link:hover
+{
+	background-position:0 -25px;
+}
+
+.buttonSubmit
+{
+	background:url(images/button.png) no-repeat;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:700;
+	height:26px;
+	padding-bottom:2px;
+	padding-left:5px;
+	padding-top:2px;
+	width:69px;
+}
+
+div.success
+{
+	background:url(images/check.png) no-repeat 10px 10px;
+}
+
+div.failed
+{
+	background:url(images/error.png) no-repeat 10px 10px;
+}
+
+div.growlUI h1,div.growlUI h2
+{
+	color:#FFF;
+	font-family:Arial;
+	font-size:16px;
+	text-align:left;
+	padding:5px 5px 5px 75px;
+}
+
+div.ui-datepicker
+{
+	font-size:11px;
+	font-family:Arial;
+}
+
+.form-container
+{
+	border:1px solid #051754;
+	border-spacing:10px;
+	background-color:#FFF;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	padding:10px;
+}
+
+p.legend
+{
+	margin-bottom:1em;
+}
+
+p.legend em
+{
+	color:#C00;
+	font-style:normal;
+}
+
+div.form-container form p
+{
+	font-size:.9em;
+	margin:0;
+}
+
+div.form-container form p.note
+{
+	margin-left:170px;
+	font-size:90%;
+	color:#333;
+}
+
+div.form-container form fieldset
+{
+	border:#DDD 1px solid;
+	margin:10px 0;
+	padding:10px;
+}
+
+div.form-container form legend
+{
+	font-weight:700;
+	color:#666;
+	font-size: 12px;
+}
+
+div.form-container form fieldset div.field
+{
+	padding:0.25em 0;
+}
+
+div.form-container label,div.form-container span.label
+{
+	margin-right:10px;
+	padding-right:10px;
+	width:150px;
+	display:block;
+	float:left;
+	text-align:right;
+	font-size:12px;
+	position:relative;
+}
+
+div.form-container label.error,div.form-container span.error
+{
+	color:#C00;
+}
+
+div.form-container label em,div.form-container span.label em
+{
+	position:absolute;
+	right:0;
+	font-size:120%;
+	font-style:normal;
+	color:#C00;
+}
+
+div.form-container input.error
+{
+	background-color:#FEF;
+	border-color:#C00;
+}
+
+div.form-container input:focus,div.form-container input.error:focus,div.form-container textarea:focus
+{
+	background-color:#FFC;
+	border-color:#FC6;
+}
+
+div.form-container div.controlset label,div.form-container div.controlset input
+{
+	display:inline;
+	float:none;
+}
+
+div.form-container div.controlset div
+{
+	margin-left:170px;
+}
+
+div.form-container div.buttonrow
+{
+	margin-left:180px;
+}
+
+#side_bar,#menu_container
+{
+	position:relative;
+	width:200px;
+	float:left;
+}
