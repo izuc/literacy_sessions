@@ -14,4 +14,4 @@ password: password
 account type: global administrator
 
 
-hosted version: http://www.libraryservice.co/
+hosted version: http://www.library.events
